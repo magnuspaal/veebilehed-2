@@ -1,0 +1,175 @@
+body {
+    font-family: "Arial";
+    color: dimgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: lighter;
+    margin: 0px;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-weight: lighter;
+    margin: 0px;
+}
+
+h3 {
+    font-weight: lighter;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0px;
+    font-size: 0.8em;
+}
+
+a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0px;
+    max-width: 1400px;
+}
+
+header h1 {
+    margin: 10px 0px;
+}
+
+header h3 {
+    margin: 10px 0px;
+}
+
+header .links {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    min-width: 320px;
+    max-width: 600px;
+    margin: 20px 0px;
+}
+
+header img {
+    width: 100%;
+    height: 300px;
+    max-width: 1000px;
+    object-fit: cover;
+}
+
+.info {
+    width: 70%;
+    max-width: 1000px;
+    margin-top: 40px;
+}
+
+.info .us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info .us .about {
+    width: 400px;
+}
+
+.info .us img {
+    width: 50%;
+    margin-left: 30px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0px;
+    max-width: 1000px;
+    width: 70%;
+    padding-bottom: 200px;
+}
+
+.recipes h2 {
+    width: 100%;
+}
+
+.recipes .images {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.recipes img {
+    height: 200px;
+    width: 200px;
+    max-width: 1000px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px 0px;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+
+footer .content {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    min-width: 220px;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: column;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    margin: 5px 0px;
+}
+
+footer p {
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .us img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .recipes h2 {
+        display: none;
+    }
+}
+
+
